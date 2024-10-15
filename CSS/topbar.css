@@ -1,0 +1,55 @@
+.topbar {
+    width: 100%;
+    height: 30px; /* Topbar yüksekliği */
+    display: flex;
+    align-items: center; /* Dikeyde ortalamak için */
+    justify-content: center; /* İçerikleri yatayda ayırmak için */
+    background-color: #f0f0f0;
+    border-bottom: 1px solid #ccc; /* Hafif bir alt sınır (isteğe bağlı) */
+}
+
+.topbar .wrapper{
+    width: 100%;
+    max-width: 1366px;
+    display: flex;
+}
+
+.topbar .left, .topbar .right {
+    display: flex;
+    flex:2;
+    align-items: center; /* İkonları ortalamak için */
+    justify-content: center;
+    height: 100%; /* Sol ve sağ kısımlar topbar ile aynı yükseklikte */
+}
+
+.topbar .center {
+    flex: 6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; /* Tüm linkleri dikeyde ortalamak için */
+    height: 100%; /* Center kısmı da topbar ile aynı yükseklikte */
+    background-color:rgb(180, 80, 113);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    box-shadow: 0px 0px 10px rgb(203, 214, 214),0px 0px 15px gray,0px 0px 20px gray;
+    border-radius: 20px;
+}
+
+.topbar .center a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 10px 20px;
+    height: 100%; /* Linklerin yüksekliğini topbar ile eşitle */
+    display: flex;
+    align-items: center; /* Linkleri dikeyde ortalamak için */
+}
+
+.topbar .center a:hover {
+    color: white;
+}
+
+.topbar .left span img, .topbar .right span img {
+    width: 40px;
+    height: 30px;
+    border-radius: 50%;
+}
