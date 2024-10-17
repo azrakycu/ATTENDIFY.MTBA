@@ -28,9 +28,9 @@
     justify-content: space-around;
     align-items: center; /* Tüm linkleri dikeyde ortalamak için */
     height: 100%; /* Center kısmı da topbar ile aynı yükseklikte */
-    background-color:rgb(180, 80, 113);
+    background-color:rgb(229, 154, 179);
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    box-shadow: 0px 0px 10px rgb(203, 214, 214),0px 0px 15px gray,0px 0px 20px gray;
+    box-shadow: 0px 0px 10px rgb(224, 234, 234),0px 0px 15px gray,0px 0px 20px gray;
     border-radius: 20px;
 }
 
