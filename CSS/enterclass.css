@@ -1,5 +1,6 @@
-.LogPage{
+.logpage{
     position:relative;
+    background-color: black;
 
 
 }
@@ -12,17 +13,17 @@
 
 .LogPage form{
     position: absolute;
-    background-color: rgb(201, 177, 181);
+    background-color: rgba(1, 8, 16, 0.853);
     width: 350px; 
     left:calc((100% - 350px)/2);
     top: 100px;
     padding: 25px;
     border-radius: 15px;
-    box-shadow: 0px 0px 10px rgb(203, 214, 214),0px 0px 15px rgb(203, 214, 214),0px 0px 20px rgb(203, 214, 214);
+    box-shadow: 0px 0px 20px rgb(241, 40, 171), 0px 0px 25px rgb(116, 148, 237), 0px 0px 30px rgb(203, 214, 214);
 
 }
 .LogPage form .formgroup{
-    background-color:rgb(201, 177, 181);
+    background-color: rgba(1, 5, 8, 0.665);
     margin-bottom: 30px;
     position: relative;
 }
@@ -30,7 +31,7 @@
 .LogPage form .formgroup input{
     width: 100%;
     height: 40px;
-    background-color:rgb(215, 183, 189) ;
+    background-color: #f3a7f1;
     border: none;
     outline: none;
     border-radius: 10px;
